@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Snowfall Effect Example</title>
+  <link href="https://www.cssscript.com/demo/sticky.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="snow"></div>
+
+  <div class="container">
+
+    <h1 style="text-align:center;">Aapka Content willbe here</h1>
+
+    <form method="post" id="candiv">
+
+      <h3> Shivani Mishra - B - ME21D040</h3>
+      <br>
+
+      <label> Firstname : </label>
+      <input type="text" name="firstname" size="15" /> <br> <br>
+      <label> Middlename : </label>
+      <input type="text" name="middlename" size="15" /> <br> <br>
+      <label> Lastname : </label>
+      <input type="text" name="lastname" size="15" /> <br> <br>
+      <label> College name : </label>
+      <input type="text" name="College name" size="15" /> <br> <br>              
+      
+      <label>
+          Course :
+      </label>
+      <select>
+          <option value=" Select">Select</option>
+          <option value="B.TECH">B.TECH</option>
+          <option value="MECHANICAL ENGG.">MECHANICAL ENGG.</option>
+          <option value="CSE ENGG.">CSE ENGG.</option>
+          <option value="ETC ENGG.">ETC ENGG.</option>
+          <option value="IT ENGG,">IT ENGG.</option>
+          <option value="ELECTRICAL ENGG.">ELECTRICAL ENGG.</option>
+      </select>
+
+      <br>
+      <br>
+      <label>
+          Gender :
+      </label>
+      <input type="radio" name="gender" /> Male
+      <input type="radio" name="gender" /> Female
+     
+
+      <br>
+      <br>
+
+      <label>
+          Phone :
+      </label>
+      <input type="tel" name="country code" value="+91" size="2" />
+      <input type="number" name="phone" size="10" /> <br> <br>
+
+      Address :
+      <br>
+      <textarea cols="50" rows="10" value="address">"Write here your address"
+  </textarea>
+      <br> <br>
+      <label>
+          Email :
+      </label>
+      <input type="email" id="email" name="email" /> <br>
+      <br> <br>
+      <label>
+          Password :
+      </label>
+      <input type="Password" id="pass" name="pass"> <br>
+      <br> <br>
+      <label>
+          Re-Enter password:
+      </label>
+      <input type="Password" id="repass" name="repass"> <br> <br>
+      <input type="submit" value="Submit" onclick="" class="registerbtn" />
+  </form>
+
+  <p class="lead">Copyright by Shivani Mishra -B- ME21D040 - S.B.JAIN INSTITUTE OF TECHNOLOGY NAGPUR</p>
+
+    <div style="margin:30px auto">
+      <div id="carbon-block"></div>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- CSSScript Demo Page -->
+      <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
+        data-ad-client="ca-pub-2783044520727903" data-ad-slot="3025259193"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <p class="lead">Copyright by shivani Mishra - ME21D049</p>
+  </div>
+  <script src="./PureSnow.js"></script>
+  <script>
+    try {
+      fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+        return true;
+      }).catch(function (e) {
+        var carbonScript = document.createElement("script");
+        carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CE7DC2JW&placement=wwwcssscriptcom";
+        carbonScript.id = "_carbonads_js";
+        document.getElementById("carbon-block").appendChild(carbonScript);
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-46156385-1', 'cssscript.com');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+
+</html>
