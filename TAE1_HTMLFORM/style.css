@@ -33,7 +33,7 @@ body {
     margin: 0;
     background-image: url(5.png);
     background-repeat: no-repeat;
-    
+
 }
 
 
@@ -42,71 +42,67 @@ form {
     color: rgba(234, 230, 242, 0.979);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 9%;
-}
 
 
-input {
-    background-color: #9dbadb;
-    opacity: .3;
-}
 
-input:hover,
-input:focus {
-    opacity: 1;
-}
+    input {
+        background-color: #9dbadb;
+        opacity: .3;
+    }
 
-select {
-    background-color: #9dbadb;
-    opacity: .3;
-}
+    input:hover,
+    input:focus {
+        opacity: 1;
+    }
 
-select:hover,
-select:focus {
-    opacity: 1;
-}
+    select {
+        background-color: #9dbadb;
+        opacity: .3;
+    }
 
-textarea {
-    width: 80%;
-    margin: 5px 30px;
-    background: #4a89d1;
-    opacity: .3;
-    height: 60px;
-}
+    select:hover,
+    select:focus {
+        opacity: 1;
+    }
 
-textarea:hover {
-    opacity: 1;
-}
+    textarea {
+        width: 80%;
+        margin: 5px 30px;
+        background: #4a89d1;
+        opacity: .3;
+        height: 60px;
+    }
 
-input[type=text]:focus {
-    background-color: rgb(138, 82, 211);
-    outline: none;
-}
+    textarea:hover {
+        opacity: 1;
+    }
 
-input[type=password]:focus {
-    background-color: rgb(51, 138, 80);
-    outline: none;
-}
+    input[type=text]:focus {
+        background-color: rgb(138, 82, 211);
+        outline: none;
+    }
 
-div {
-    padding: 10px 0;
-}
+    input[type=password]:focus {
+        background-color: rgb(51, 138, 80);
+        outline: none;
+    }
 
-hr {
-    border: 1px solid #8fb9b2;
-    margin-bottom: 25px;
-}
+    div {
+        padding: 10px 0;
+    }
 
-.registerbtn {
-    background-color: #cc3a5f;
-    color: white;
-    padding: 15px 20px;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: .5;
-}
 
-.registerbtn:hover {
-    opacity: .9;
-}
+    .registerbtn {
+        background-color: #cc3a5f;
+        color: white;
+        padding: 15px 20px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: .5;
+    }
+
+    .registerbtn:hover {
+        opacity: .9;
+    }
