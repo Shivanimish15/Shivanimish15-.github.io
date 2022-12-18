@@ -41,7 +41,7 @@ form {
     text-align: left;
     color: rgba(234, 230, 242, 0.979);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 12%;
+    padding-top: 9%;
 }
 
 
@@ -70,7 +70,7 @@ textarea {
     margin: 5px 30px;
     background: #4a89d1;
     opacity: .3;
-    height: 120px;
+    height: 60px;
 }
 
 textarea:hover {
