@@ -33,14 +33,17 @@ body {
     margin: 0;
     background-image: url(5.png);
     background-repeat: no-repeat;
+    
 }
-}
+
 
 form {
     text-align: left;
     color: rgba(234, 230, 242, 0.979);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    padding-top: 12%;
+}
+
 
 input {
     background-color: #9dbadb;
@@ -64,9 +67,10 @@ select:focus {
 
 textarea {
     width: 80%;
-    margin: 5px 20px;
+    margin: 5px 30px;
     background: #4a89d1;
     opacity: .3;
+    height: 120px;
 }
 
 textarea:hover {
